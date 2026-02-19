@@ -1,6 +1,6 @@
 # Electricity Demand Forecasting using Machine Learning & Deep Learning
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on forecasting **hourly electricity demand** using historical load data.  
 It compares traditional machine learning and deep learning approaches to capture both
 short-term fluctuations and long-term temporal dependencies.
@@ -12,7 +12,7 @@ The models implemented include:
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Source**: PJM Interconnection hourly electricity demand
 - **Time Period**: 2002 – 2018
 - **Frequency**: Hourly
@@ -20,7 +20,7 @@ The models implemented include:
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### 1. Data Preprocessing
 - Converted datetime column to time index
@@ -39,7 +39,7 @@ The models implemented include:
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 | Model     | Description |
 |----------|------------|
@@ -49,7 +49,7 @@ The models implemented include:
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 | Model   | MAE (MW) | RMSE (MW) |
 |--------|---------|-----------|
@@ -62,14 +62,14 @@ complex temporal patterns in electricity demand.
 
 ---
 
-## 📉 Results Visualization
+## Results Visualization
 The figure below compares actual demand with predictions from all three models:
 
 ![Model Comparison](images/model_comparison.png)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python
 - NumPy, Pandas, Matplotlib
 - Scikit-learn
@@ -78,14 +78,14 @@ The figure below compares actual demand with predictions from all three models:
 
 ---
 
-## 🚀 Key Takeaways
+## Key Takeaways
 - Deep learning models outperform traditional ML for sequential electricity demand data
 - GRU provides a strong balance between accuracy and computational efficiency
 - Sequence-based modeling captures sharp demand fluctuations better than lag features alone
 
 ---
 
-## 🔮 Future Work
+## Future Work
 - Multi-step forecasting
 - Inclusion of weather and temperature variables
 - Hyperparameter tuning and probabilistic forecasting
@@ -93,5 +93,5 @@ The figure below compares actual demand with predictions from all three models:
 
 ---
 
-## 👤 Author
+## Author
 **Chirag Sadhwani**  
