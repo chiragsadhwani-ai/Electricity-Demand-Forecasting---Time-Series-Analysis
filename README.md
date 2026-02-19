@@ -65,7 +65,7 @@ complex temporal patterns in electricity demand.
 ## Results Visualization
 The figure below compares actual demand with predictions from all three models:
 
-![Model Comparison](images/model_comparison.png)
+![Model Comparison](images/model_comparision.png)
 
 ---
 
